@@ -1,0 +1,630 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: identity-lyn
+  title: identity-lyn
+  description: Componente identity-lyn en namespace identity-ns
+  annotations:
+    backstage.io/kubernetes-id: identity-lyn
+    backstage.io/kubernetes-namespace: identity-ns
+  tags:
+    - kubernetes
+    - okd
+    - identity-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: keycloak
+  title: keycloak
+  description: Componente keycloak en namespace identity-ns
+  annotations:
+    backstage.io/kubernetes-id: keycloak
+    backstage.io/kubernetes-namespace: identity-ns
+  tags:
+    - kubernetes
+    - okd
+    - identity-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backbxy
+  title: backbxy
+  description: Componente backbxy en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: backbxy
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxy-fast-api
+  title: bxy-fast-api
+  description: Componente bxy-fast-api en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: bxy-fast-api
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxy-main-api
+  title: bxy-main-api
+  description: Componente bxy-main-api en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: bxy-main-api
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxy-quote-api
+  title: bxy-quote-api
+  description: Componente bxy-quote-api en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: bxy-quote-api
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxyfe-pc
+  title: bxyfe-pc
+  description: Componente bxyfe-pc en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: bxyfe-pc
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxyml-pc
+  title: bxyml-pc
+  description: Componente bxyml-pc en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: bxyml-pc
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxymlrobot-pc
+  title: bxymlrobot-pc
+  description: Componente bxymlrobot-pc en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: bxymlrobot-pc
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxynotify-pc
+  title: bxynotify-pc
+  description: Componente bxynotify-pc en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: bxynotify-pc
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxywebimports-pc
+  title: bxywebimports-pc
+  description: Componente bxywebimports-pc en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: bxywebimports-pc
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: database-mongodb
+  title: database-mongodb
+  description: Componente database-mongodb en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: database-mongodb
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: databoxy-front-end
+  title: databoxy-front-end
+  description: Componente databoxy-front-end en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: databoxy-front-end
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fecompras-pc
+  title: fecompras-pc
+  description: Componente fecompras-pc en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: fecompras-pc
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fecompraspc-frontend
+  title: fecompraspc-frontend
+  description: Componente fecompraspc-frontend en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: fecompraspc-frontend
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mcp-server
+  title: mcp-server
+  description: Componente mcp-server en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: mcp-server
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mock-deployment
+  title: mock-deployment
+  description: Componente mock-deployment en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: mock-deployment
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: msgraphapis
+  title: msgraphapis
+  description: Componente msgraphapis en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: msgraphapis
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nginx-facturasfe
+  title: nginx-facturasfe
+  description: Componente nginx-facturasfe en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: nginx-facturasfe
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nodesap-pc
+  title: nodesap-pc
+  description: Componente nodesap-pc en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: nodesap-pc
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backendarea
+  title: backendarea
+  description: Componente backendarea en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: backendarea
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backendareaclient
+  title: backendareaclient
+  description: Componente backendareaclient en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: backendareaclient
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backendfileservice
+  title: backendfileservice
+  description: Componente backendfileservice en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: backendfileservice
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxy-redis
+  title: bxy-redis
+  description: Componente bxy-redis en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: bxy-redis
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: edrapidell
+  title: edrapidell
+  description: Componente edrapidell en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: edrapidell
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: edrbitacoraconsumer
+  title: edrbitacoraconsumer
+  description: Componente edrbitacoraconsumer en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: edrbitacoraconsumer
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: edremailrabbitconsumer
+  title: edremailrabbitconsumer
+  description: Componente edremailrabbitconsumer en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: edremailrabbitconsumer
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: edrnotifications
+  title: edrnotifications
+  description: Componente edrnotifications en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: edrnotifications
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: edrportalservice
+  title: edrportalservice
+  description: Componente edrportalservice en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: edrportalservice
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: emailtos3service
+  title: emailtos3service
+  description: Componente emailtos3service en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: emailtos3service
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: endarea-frontend
+  title: endarea-frontend
+  description: Componente endarea-frontend en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: endarea-frontend
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: inventoryservice
+  title: inventoryservice
+  description: Componente inventoryservice en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: inventoryservice
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: meconsumer
+  title: meconsumer
+  description: Componente meconsumer en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: meconsumer
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: techdirectservice
+  title: techdirectservice
+  description: Componente techdirectservice en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: techdirectservice
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ticketmanager-mcp-server
+  title: ticketmanager-mcp-server
+  description: Componente ticketmanager-mcp-server en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: ticketmanager-mcp-server
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
+---

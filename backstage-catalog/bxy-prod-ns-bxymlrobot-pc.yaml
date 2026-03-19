@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxymlrobot-pc
+  title: bxymlrobot-pc
+  description: Componente bxymlrobot-pc en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: bxymlrobot-pc
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp

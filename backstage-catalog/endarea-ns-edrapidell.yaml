@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: edrapidell
+  title: edrapidell
+  description: Componente edrapidell en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: edrapidell
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp

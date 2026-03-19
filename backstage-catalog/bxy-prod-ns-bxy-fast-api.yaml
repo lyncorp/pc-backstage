@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bxy-fast-api
+  title: bxy-fast-api
+  description: Componente bxy-fast-api en namespace bxy-prod-ns
+  annotations:
+    backstage.io/kubernetes-id: bxy-fast-api
+    backstage.io/kubernetes-namespace: bxy-prod-ns
+  tags:
+    - kubernetes
+    - okd
+    - bxy-prod-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp

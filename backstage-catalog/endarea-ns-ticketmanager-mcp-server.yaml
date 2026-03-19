@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ticketmanager-mcp-server
+  title: ticketmanager-mcp-server
+  description: Componente ticketmanager-mcp-server en namespace endarea-ns
+  annotations:
+    backstage.io/kubernetes-id: ticketmanager-mcp-server
+    backstage.io/kubernetes-namespace: endarea-ns
+  tags:
+    - kubernetes
+    - okd
+    - endarea-ns
+spec:
+  type: service
+  lifecycle: production
+  owner: lyncorp
