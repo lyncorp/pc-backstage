@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test
+  title: Backstage Test - Brayan
+  description: >
+    Componente de prueba para aprender a registrar servicios 
+    en Backstage. Creado por Brayan Zamora.
+  tags:
+    - prueba
+    - backstage
+    - lyncorp
+spec:
+  type: service
+  lifecycle: experimental
+  owner: lyncorp
