@@ -40,3 +40,4 @@ spec:
     - ./endarea-ns-ticketmanager-mcp-server.yaml
     - ./identity-ns-identity-lyn.yaml
     - ./identity-ns-keycloak.yaml
+    - ./backstage-test.yaml
